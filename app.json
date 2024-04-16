@@ -1,0 +1,53 @@
+{
+  "name": "forward_bot_premium_ultra",
+  "description": "Telegram forward_bot_premium_ultra ",
+  "logo": "https://graph.org/file/cd2b471f3474d69740df5.jpg",
+  "keywords": ["Auto Renamer Bot", "Mongo DB"],    
+  "repository": "https://github.com/Rohanthakur360/forward_bot_premium_ultra",
+  "success_url": "https://t.me/Stubborn1223",
+  "env": {
+      "API_ID": {
+          "description": "Your APP ID From my.telegram.org ",
+          "value": "",
+          "required": true
+      },
+      "API_HASH": {
+          "description": "Your API Hash From my.telegram.org ",
+          "value": "",
+          "required": true
+      },
+      "BOT_TOKEN": {
+          "description": "Your Bot Token From @BotFather",
+          "value": "",
+          "required": true
+      },
+      "OWNER_ID": {
+          "description":"Add Your User ID multiple is use space to split",
+          "value": "",
+          "required": true
+      },
+      "BOT_SESSION": {
+          "description":"Your Bot session name.",
+          "value": "forward-bot",
+          "required": false           
+      },
+      "DB_URL": {
+          "description": "Your Mongo DB URL Obtained From mongodb.com",
+          "value": "",
+          "required": true
+      },
+      "DB_NAME":{ 
+          "description":"Your Mongo DB Database Name",
+          "value": "Stubborn",
+          "required": false
+      }
+  },
+  "buildpacks": [
+      {
+          "url": "heroku/python"
+      }
+  ]
+}
+
+
+
