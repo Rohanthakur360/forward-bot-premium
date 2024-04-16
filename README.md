@@ -1,4 +1,4 @@
-<img src="https://graph.org/file/cd2b471f3474d69740df5.jpg" alt="logo" target="/blank">
+<img src="https://graph.org/file/3d4562c52f26a50809325.jpg" alt="logo" target="/blank">
 
 <h1 align="center">
  <b><a href="https://t.me/Stubborn1223" target="/blank"> Developer </a></>
