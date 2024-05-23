@@ -33,7 +33,7 @@ async def start(client, message):
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id, user.first_name)
     reply_markup = InlineKeyboardMarkup(main_buttons)
-    jishubotz = await message.reply_sticker("CAACAgUAAxkBAAECEEBlLA-nYcsWmsNWgE8-xqIkriCWAgACJwEAAsiUZBTiPWKAkUSmmh4E")
+    jishubotz = await message.reply_sticker("CAACAgUAAxkBAAN5Zk9CVpGvn2Ua_NxhBPcot_v9u38AAhAMAAJb99FXf0gvqj8LUhQeBA")
     await asyncio.sleep(2)
     await jishubotz.delete()
     text=Translation.START_TXT.format(user.mention)
