@@ -6,8 +6,8 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN Rohanthakur360/forward_bot_premium_ultra
-WORKDIR /forward_bot_premium_ultra
+RUN  protullen/forward-bot-premium
+WORKDIR /forward-bot-premium
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"] 
 
