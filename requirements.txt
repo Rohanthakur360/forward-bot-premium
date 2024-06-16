@@ -4,3 +4,5 @@ TgCrypto
 Dnspython
 aiohttp
 pytz
+Flask
+gunicorn
