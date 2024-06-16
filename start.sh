@@ -10,4 +10,4 @@ fi
 cd  protullen/forward-bot-premium
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
-python3 main.py
+gunicorn app:app & python3 main.py
